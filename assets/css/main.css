@@ -1,0 +1,544 @@
+/*--------------------------------------------------------------
+# Tipografias grales
+--------------------------------------------------------------*/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #535353;
+  font-family: "Oxygen", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+p,
+a {
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+li,
+ul,
+ol {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 1em;
+  color: #464646;
+}
+
+/*--------------------------------------------------------------
+# Tipografias
+--------------------------------------------------------------*/
+body {
+  background-color: #ffffff;
+  /* Color de fondo */
+  line-height: 1.5;
+  color: #333;
+  margin: 5px;
+  /* Margen */
+  padding: 5px;
+  /* Relleno */
+  line-height: 1.6;
+  /* Altura de línea */
+}
+
+header {
+  background-color: #333;
+  /* Color de fondo */
+  color: white;
+  /* Color del texto */
+  padding: 20px;
+  /* Relleno */
+  text-align: center;
+  /* Alineación del texto */
+}
+
+nav {
+  background-color: #0056b3;
+  /* Color de fondo */
+  color: white;
+  /* Color del texto */
+  padding: 10px;
+  /* Relleno */
+  text-align: center;
+  /* Alineación del texto */
+}
+
+nav a {
+  color: white;
+  /* Color del texto de los enlaces */
+  margin: 0 10px;
+  /* Margen entre enlaces */
+  text-decoration: none;
+  /* Sin subrayado */
+}
+
+nav a:hover {
+  text-decoration: underline;
+  /* Subrayado al pasar el ratón */
+}
+
+section {
+  padding: 10px;
+  /* Relleno */
+  margin-bottom: 10px;
+  /* Margen inferior */
+  background-color: #ffffff;
+  /* Color de fondo */
+  /*border: 1px solid #ddd; /* Borde */
+  /*border-radius: 5px; /* Bordes redondeados */
+}
+
+article {
+  padding: 20px;
+  /* Relleno */
+  margin-bottom: 20px;
+  /* Margen inferior */
+  background-color: #fff;
+  /* Color de fondo */
+  border: 1px solid #ddd;
+  /* Borde */
+  border-radius: 5px;
+  /* Bordes redondeados */
+}
+
+aside {
+  padding: 15px;
+  /* Relleno */
+  margin-bottom: 20px;
+  /* Margen inferior */
+  background-color: #f0f0f0;
+  /* Color de fondo */
+  border: 1px solid #ccc;
+  /* Borde */
+  border-radius: 5px;
+  /* Bordes redondeados */
+}
+
+footer {
+  background-color: #000000;
+  /* Color de fondo */
+  color: white;
+  /* Color del texto */
+  padding: 10px;
+  /* Relleno */
+  text-align: center;
+  /* Alineación del texto */
+}
+
+p {
+  color: #000000;
+  /* Color del texto */
+  font-size: 17px;
+  /* Tamaño de la fuente */
+  line-height: 1.5;
+  /* Altura de línea */
+  text-align: justify;
+  /* Alineación del texto */
+  margin-bottom: 10px;
+  /* Margen inferior */
+  padding: 10px;
+  /* Relleno */
+  /*background-color: #ffffff; /* Color de fondo */
+
+  /*border: 1px solid #ddd;*/
+  /* Borde */
+  /*border-radius: 5px;*/
+  /* Radio del borde */
+}
+
+a {
+  color: #5a4501;
+  /* Color del texto */
+  font-size: 1em;
+  font-weight: normal;
+  font-style: normal;
+  text-decoration: none;
+  /* Sin subrayado */
+}
+
+a:hover {
+  text-decoration: none;
+  /* Sin subrayado al pasar el ratón */
+}
+
+b {
+  color: #333;
+  /* Color del texto */
+  font-weight: bold;
+  /* Negrita */
+}
+
+button {
+  background-color: #007bff;
+  /* Color de fondo */
+  color: white;
+  /* Color del texto */
+  border: none;
+  /* Sin borde */
+  padding: 10px 20px;
+  /* Relleno */
+  border-radius: 5px;
+  /* Bordes redondeados */
+  cursor: pointer;
+  /* Cursor de mano */
+}
+
+button:hover {
+  background-color: #f0bd07;
+  /* Color de fondo al pasar el ratón */
+}
+
+cite {
+  font-style: italic;
+  /* Cursiva */
+  color: #666;
+  /* Color del texto */
+}
+
+code {
+  font-family: 'Courier', monospace;
+  font-size: 0.9em;
+  font-weight: normal;
+  font-style: normal;
+  color: #d63384;
+  background-color: #f8f9fa;
+  padding: 2px 4px;
+  border-radius: 4px;
+}
+
+i {
+  font-style: italic;
+  /* Cursiva */
+  color: #333;
+  /* Color del texto */
+}
+
+img {
+  max-width: 100%;
+  /* Ancho máximo */
+  height: auto;
+  /* Altura automática */
+  border-radius: 5px;
+  /* Bordes redondeados */
+}
+
+label {
+  font-weight: bold;
+  /* Negrita */
+  color: #333;
+  /* Color del texto */
+  display: block;
+  /* Mostrar como bloque */
+  margin-bottom: 5px;
+  /* Margen inferior */
+}
+
+span {
+  color: #333;
+  /* Color del texto */
+  background-color: #ffffff;
+  /* Color de fondo */
+  padding: 2px 4px;
+  /* Relleno */
+  border-radius: 3px;
+  /* Bordes redondeados */
+}
+
+table {
+  width: 100%;
+  /* Ancho completo */
+  border-collapse: collapse;
+  /* Colapsar bordes */
+  margin-bottom: 20px;
+  /* Margen inferior */
+}
+
+th,
+td {
+  border: 1px solid #ddd;
+  /* Borde */
+  padding: 8px;
+  /* Relleno */
+  text-align: left;
+  /* Alineación del texto */
+}
+
+th {
+  background-color: #f2f2f2;
+  /* Color de fondo para encabezados */
+  font-weight: bold;
+  /* Negrita */
+}
+
+/* Estilo para las listas */
+
+ul {
+  list-style-type: disc;
+  /* Tipo de viñeta */
+  padding-left: 20px;
+  /* Relleno izquierdo */
+}
+
+ul li {
+  margin-bottom: 5px;
+  /* Margen inferior para elementos de lista */
+}
+
+ol {
+  list-style-type: decimal;
+  /* Tipo de numeración */
+  padding-left: 20px;
+  /* Relleno izquierdo */
+}
+
+ol li {
+  margin-bottom: 5px;
+  /* Margen inferior para elementos de lista */
+}
+
+div {
+  margin-bottom: 10px;
+  /* Margen inferior */
+  padding: 5px;
+  /* Relleno */
+  /*background-color: #ffffff;*/
+  /* Color de fondo */
+  /*border: 1px solid #ddd; /* Borde */
+  /*border-radius: 5px;  /* Bordes redondeados */
+}
+
+
+
+/*--------------------------------------------------------------
+# Estilos
+--------------------------------------------------------------*/
+.t-card {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 16px;
+  color: #5c5c5c;
+}
+
+.st-card {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  color: #5c5c5c;
+}
+
+.tp-card {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 15px;
+  color: #5c5c5c;
+}
+
+.p-card {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  color: #5c5c5c;
+}
+
+.p-cardw {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  color: #ffffff;
+}
+
+/*--------------------------------------------------------------
+# Clases de tipografías
+--------------------------------------------------------------*/
+.roboto-thin {
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.roboto-light {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.roboto-regular {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.roboto-medium {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.roboto-bold {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.roboto-black {
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.roboto-thin-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.roboto-light-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.roboto-regular-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.roboto-medium-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.roboto-bold-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.roboto-black-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+}
+
+.oxygen-light {
+  font-family: "Oxygen", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.oxygen-regular {
+  font-family: "Oxygen", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.oxygen-bold {
+  font-family: "Oxygen", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+/*--------------------------------------------------------------
+# Clases de acordion
+--------------------------------------------------------------*/
+
+.accordion-button {
+  background-color: #ffffff;
+  /* Cambia el color de fondo del botón */
+  color: #343a40;
+  ;
+  /* Cambia el color del texto */
+
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: #f0bd07;
+  /* Color de fondo cuando el acordeón está abierto */
+  color: #343a40;
+  ;
+  /* Cambia el color del texto */
+
+}
+
+.accordion-button.collapsed {
+  background-color: #f0bd07;
+  /* Color de fondo cuando el acordeón está cerrado */
+  color: #343a40;
+  /* Cambia el color del texto */
+  outline: none;
+  /* Desactiva el contorno */
+}
+
+.accordion-body {
+  background-color: #f8f9fa;
+  /* Cambia el color de fondo del cuerpo del acordeón */
+  color: #343a40;
+  /* Cambia el color del texto */
+
+}
+
+/*--------------------------------------------------------------
+# Clases de color texto
+--------------------------------------------------------------*/
+
+.half1 {
+  color: #353535;
+  /* Color para la primera mitad */
+}
+
+.half2 {
+  color: #6e6e6e;
+  /* Color para la segunda mitad */
+}
+
+/* Estilo para el modal */
+.modal-content {
+  background-color: rgba(255, 255, 255, 0.9);
+  /* Fondo principal del modal con 30% de transparencia */
+}
+
+/* Estilo para el div que contiene el video */
+.modal-body {
+  border: 2px solid rgb(255, 255, 255);
+  /* Borde gris */
+  border-radius: 15px;
+  /* Esquinas redondeadas */
+  background-color: rgba(255, 255, 255, 0.986);
+  /* Fondo con 80% de transparencia */
+  padding: 15px;
+  /* Espaciado interno */
+}
+
+
+/* Divs de contenido */
+
+.feature-box {
+  text-align: center;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.feature-box i {
+  font-size: 3rem;
+  color: #f0bd07;
+  margin-bottom: 10px;
+}
+
+/* CSS personalizado para modificar el ancho del modal */
+.modal-xlg {
+  max-width: 900px; /* Ajusta el valor según tus necesidades */
+}
